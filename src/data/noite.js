@@ -42,6 +42,9 @@ export const SUSTOS = [
   { minuto: 320, id: 'fiscal_espelho' },
 ];
 export const TELEFONEMAS = [{ minuto: 30, id: 'telefone_mudo' }];
+// Perseguições: 10 min (do relógio do jogo) depois do início das horas 02, 04 e 05. Duram 35 s reais.
+export const PERSEGUICOES = [130, 250, 310];
+export const DURACAO_PERSEGUICAO = 35;
 
 export const FERRAMENTAS = {
   esfregao: 'Esfregão e balde',
@@ -51,4 +54,11 @@ export const FERRAMENTAS = {
   sabonete: 'Refil de sabonete',
 };
 
-export const POCAS_MAX = 3;
+// Fita "INTERDITADO PELA FISCALIZAÇÃO": o Fiscal interdita a porta de um banheiro.
+// A fita bloqueia a porta (colisão) até você arrancar. `ponto` = meio da porta (dá para arrancar dos dois lados).
+export const FITAS = {
+  masc_t: { nome: 'Porta do banheiro masculino · térreo', ponto: { x: -15, z: -3 }, parede: { minX: -15.5, maxX: -14.5, minZ: -3.08, maxZ: -2.92 } },
+  fem_t: { nome: 'Porta do banheiro feminino · térreo', ponto: { x: 15, z: -3 }, parede: { minX: 14.5, maxX: 15.5, minZ: -3.08, maxZ: -2.92 } },
+  banheiro_vip: { nome: 'Porta do Banheiro dos Parlamentares', ponto: { x: 119, z: -3 }, parede: { minX: 118.5, maxX: 119.5, minZ: -3.08, maxZ: -2.92 } },
+};
+export const FITAS_MAX = 2;
