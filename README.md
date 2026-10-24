@@ -10,6 +10,6 @@ Jogue e instale: https://ph771.github.io/plant-o-no-banheiro/
 
 O jogo atualiza sozinho: quando sai versão nova, aparece "Nova versão do jogo disponível".
 
-Versão atual: `2026.10.24-0330-2a2ff6e`
+Versão atual: `2026.10.24-0344-57a5f98`
 
 Créditos: móveis 3D — Furniture Kit por Kenney (CC0); Three.js (MIT).
