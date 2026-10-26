@@ -1,2 +1,2 @@
 // Gerado na publicação.
-export const VERSAO = '2026.10.25-1939-b5ca702';
+export const VERSAO = '2026.10.26-0112-e61d17e';
